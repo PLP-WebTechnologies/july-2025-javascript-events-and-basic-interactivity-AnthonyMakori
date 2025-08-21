@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+   <!-- Part 1: Event Handling Example   -->
+  <button id="clickMeBtn">Click Me</button>
+  <p id="message"></p>
+
+   <!-- Part 2: Interactive Elements   -->
+  <section>
+    <h2> Theme Toggle</h2>
+    <button id="toggleThemeBtn">Toggle Dark Mode</button>
+  </section>
+
+  <section>
+    <h2>➕ Counter</h2>
+    <button id="incrementBtn">Increment</button>
+    <button id="decrementBtn">Decrement</button>
+    <p id="counterValue">0</p>
+  </section>
+
+  <section>
+    <h2>❓ FAQ</h2>
+    <div class="faq-item">
+      <button class="faq-question">What is JavaScript?</button>
+      <p class="faq-answer">JavaScript is a programming language that makes web pages interactive.</p>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Why use JS?</button>
+      <p class="faq-answer">It lets you create dynamic, user-friendly experiences.</p>
+    </div>
+  </section>
+
+    <!-- Part 3: Form Validation  -->
+  <section>
+    <h2>📋 Registration Form</h2>
+    <form id="registrationForm">
+      <label>Name: <input type="text" id="name" /></label><br />
+      <label>Email: <input type="text" id="email" /></label><br />
+      <label>Password: <input type="password" id="password" /></label><br />
+      <button type="submit">Register</button>
+    </form>
+    <p id="formFeedback"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
